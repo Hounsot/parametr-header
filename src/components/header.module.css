@@ -375,7 +375,7 @@
         font-size: calc(var(--burger-menu-list-text-size) * 0.89);
     }
     @media (width <= 768px) {
-        font-size: calc(var(--burger-menu-list-text-size) * 0.63);
+        font-size: calc(var(--burger-menu-list-text-size) * 1);
     }
 }
 
