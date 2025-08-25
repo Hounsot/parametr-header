@@ -10,13 +10,13 @@
 /* import font from local TTFirsNeue */
 @font-face {
   font-family: "TT Firs Neue";
-  src: url("/fonts/TTFirsNeue-Regular.ttf") format("truetype");
+  src: url("/TTFirsNeue-Regular.ttf") format("truetype"), url("https://static.tildacdn.com/tild3761-6331-4234-b039-346630363437/TTFirsNeue-Regular.woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "TT Firs Neue";
-  src: url("/fonts/TTFirsNeue-Regular.ttf") format("truetype");
+  src: url("/TTFirsNeue-Medium.ttf") format("truetype"), url("https://static.tildacdn.com/tild3038-3936-4734-a664-643863393164/TTFirsNeue-Medium.woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -25,21 +25,9 @@
   --background: #ffffff;
   --foreground: #171717;
   --header-bg: #ffffff;
-  --header-height: 80px;
-  --header-padding: 40px;
-  --header-dropdown-height: 140px;
   --text-color: #181818;
   --alpha-bg: #18181815;
-  --text-size: 13px;
-  --main-width: 1440px;
   --ease-in-out: cubic-bezier(.55,0,.1,1);
-}
-
-@media (width <= 1440px) {
-  :root{
-    --main-width: 1024px;
-    --header-dropdown-height: 240px;
-  }
 }
 
 body {
@@ -49,7 +37,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   max-width: 100%;
-  font-family: "TT Firs Neue", "Comic Sans MS";
+  font-family: "TT Firs Neue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 
